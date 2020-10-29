@@ -1508,7 +1508,7 @@ public class MetaStoreUtils {
     else {
       String externalParam = params.get(EXTERNAL_TABLE_PROP);
       if (externalParam != null) {
-        return Boolean.parseBoolean(params.get(EXTERNAL_TABLE_PROP));
+        return Boolean.parseBoolean(externalParam);
       }
       else {
         return isTableTypeExternal(table);
