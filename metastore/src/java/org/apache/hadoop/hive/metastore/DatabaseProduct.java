@@ -41,6 +41,8 @@ public enum DatabaseProduct {
       return SQLSERVER;
     } else if (productName.contains("mysql")) {
       return MYSQL;
+    } else if (productName.contains("mariadb")) {
+      return MYSQL;
     } else if (productName.contains("oracle")) {
       return ORACLE;
     } else if (productName.contains("postgresql")) {
