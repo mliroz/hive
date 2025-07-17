@@ -178,7 +178,8 @@
     <mockito-all.version>1.9.5</mockito-all.version>
     <mina.version>2.0.0-M5</mina.version>
     <netty.version>4.0.52.Final</netty.version>
-    <parquet.version>1.8.1</parquet.version>
+    <!-- Criteo fork of Parquet which includes zstd-jni -->
+    <parquet.version>1.9.1+20200901095416</parquet.version>
     <pig.version>0.16.0</pig.version>
     <protobuf.version>2.5.0</protobuf.version>
     <stax.version>1.0.1</stax.version>
